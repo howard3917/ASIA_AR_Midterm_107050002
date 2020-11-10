@@ -133,19 +133,19 @@ AnimatorController:
   m_Name: "\u7537\u528D\u58EB"
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: attack
+  - m_Name: ATTACK
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: defeat
+  - m_Name: DEFEAT
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: block
+  - m_Name: BLOCK
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -173,7 +173,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: block
+    m_ConditionEvent: BLOCK
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2900048357972672725}
@@ -259,7 +259,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: defeat
+    m_ConditionEvent: DEFEAT
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3686967427959947705}
@@ -284,7 +284,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: attack
+    m_ConditionEvent: ATTACK
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1048313531518037717}
